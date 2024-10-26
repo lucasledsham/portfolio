@@ -85,7 +85,7 @@ h3 {
 
 /* Apresentacao */
 
-.apresentacao {
+#apresentacao {
   margin-left: 200px;
   margin-right: 200px;
   display: grid;
@@ -99,7 +99,7 @@ h3 {
   visibility: hidden;
 }
 
-.texto {
+#texto {
   margin-top: 130px;
 }
 
@@ -108,7 +108,7 @@ h3 {
   visibility: hidden;
 }
 
-.apresentacao h1 {
+#apresentacao h1 {
   font-size: 3rem;
   color: #3b4518;
   font-family: "Cormorant Garamond", serif;
@@ -131,7 +131,7 @@ h3 {
 
 /* Formação */
 
-.form {
+#form {
   background-color: #e8c8a4;
   margin-top: 70px;
   display: grid;
@@ -146,7 +146,7 @@ h3 {
   grid-column: 2;
 }
 
-.formacao-extra {
+#formacao-extra {
   grid-column: 2;
 }
 
@@ -160,7 +160,7 @@ h3 {
   visibility: hidden;
 }
 
-.formacao-texto {
+#formacao-texto {
   margin-top: 20px;
   font-family: Roboto;
   font-size: 1.4rem;
@@ -201,20 +201,20 @@ h3 {
   font-size: 1rem;
 }
 
-.idiomas {
+#idiomas {
   display: grid;
   gap: 15px;
   margin-bottom: 20px;
 }
 
-.idiomas h3 {
+#idiomas h3 {
   font-size: 1.4rem;
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   color: #222b06;
 }
 
-.linguas {
+#linguas {
   font-family: Roboto, sans-serif;
   font-size: 1.2rem;
   color: #222b06;
@@ -228,7 +228,7 @@ h3 {
 
 /* Footer */
 
-.footer {
+#footer {
   margin-top: 40px;
   display: grid;
   margin-left: 200px;
@@ -236,7 +236,7 @@ h3 {
   position: relative;
 }
 
-.conversar {
+#conversar {
   display: grid;
   margin-bottom: 60px;
   gap: 5px;
@@ -259,35 +259,35 @@ h3 {
   color: #222b06;
 }
 
-.links {
+#links {
   display: flex;
   gap: 70px;
   margin-bottom: 60px;
 }
 
-.links a {
+#links a {
   font-family: "Playfair Display", serif;
   font-size: 1.4rem;
   color: #222b06;
 }
 
-.fim {
+#fim {
   display: grid;
   gap: 60px;
 }
 
-.fim p {
+#fim p {
   font-size: 1.4rem;
   font-family: Roboto;
   color: rgb(34, 43, 6, 0.7);
   font-weight: 100;
 }
 
-.Lucas {
+#lucas {
   color: #222b06;
 }
 
-.seta {
+#seta {
   position: absolute;
   right: -4px;
   width: 40px;
