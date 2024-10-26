@@ -124,10 +124,70 @@ h3 {
 .apresentacao-texto1 {
   margin-top: 20px;
   font-family: Roboto;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 /* / Apresentação */
+
+/* PROJETOS */
+
+#projetos-secao {
+  display: grid;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+}
+
+.projetos-div {
+  display: flex;
+  gap: 30px;
+}
+
+.projeto-mockup {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.projeto-info {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.projeto-info img {
+  width: 250px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.projeto-info p {
+  font-family: Roboto;
+  font-size: 1.4rem;
+  display: grid;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.projeto-tecnologias {
+  display: flex;
+  gap: 40px;
+}
+
+.projeto-tecnologias img, .projeto-github a img {
+  width: 50px;
+}
+
+.projeto-github {
+  display: flex;
+  align-items: center;
+}
+
+.projeto-github h2 {
+  font-family: Roboto;
+  font-size: 1.4rem;
+  margin: 0;
+  color: #222b06;
+}
 
 /* Formação */
 
