@@ -1,6 +1,6 @@
 // Scroll Animacao
 
-window.sr = ScrollReveal({ reset: true });
+window.sr = ScrollReveal({ reset: false }); // Define reset para false
 
 // Apresentacao
 sr.reveal(".conteudo", {
@@ -25,7 +25,7 @@ sr.reveal(".desenho img", {
 sr.reveal(".subtitulo", { duration: 1800 });
 // /Subtitulo Formacao
 
-// lInks
+// Links
 sr.reveal(".links-email", { duration: 1200 });
 sr.reveal(".links-git", { duration: 1800 });
 sr.reveal(".links-linkedin", { duration: 2400 });
@@ -34,4 +34,13 @@ sr.reveal(".links-wpp", { duration: 3600 });
 sr.reveal(".links-instagram", { duration: 4200 });
 // /Links
 
+// ANIMACAO de Scroll para Anchors
+var page = $("html, body");
+var animationDuration = 2000;
 
+$(".anchor").click(function () {
+  page.animate({
+    scrollTop: $($.attr(this, 'href')).offset().top
+  }, animationDuration);
+  return false;
+});

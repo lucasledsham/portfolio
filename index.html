@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lucas Ledsham</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./assets/style.css">
   <link rel="shortcut icon" href="/fotos/favicon.ico" type="image/x-icon">
   <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Crimson+Text&family=Playfair+Display:wght@500;700;900&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
@@ -20,21 +21,19 @@
 
   <!-- Menu -->
   <header class="header">
-    <a class="logo" href="/index.html"><img src="/fotos/logo.svg" alt="Logo Lucas Ledsham"></a>
+    <a class="logo" href="./index.html"><img src="./assets/fotos/logo.svg" alt="Logo Lucas Ledsham"></a>
 
     <nav class="primaria">
       <ul class="menu">
-        <li class="inicio"><a href="/index.html">Início</a></li>
+        <li class="inicio"><a href="./index.html">Início</a></li>
         <li class="formacao"><a class="anchor" href="#form">Formação</a></li>
         <li class="projetos"><a href="/">Projetos</a></li>
         <li class="contato"><a href="/Menu/contato.html">Contato</a></li>
       </ul>
     </nav>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </header>
 
-  <img class="detalhe" src="/fotos/detalhe.svg" alt="">
+  <img class="detalhe" src="./assets/fotos/detalhe.svg" alt="">
   <!-- /Menu -->
 
   <main>
@@ -47,7 +46,7 @@
       </div>
 
       <div class="desenho">
-        <img src="./fotos/desenho.svg" alt="Desenho flor">
+        <img src="./assets/fotos/desenho.svg" alt="Desenho flor">
       </div>
     </section>
 
@@ -63,13 +62,13 @@
         <li class="faculdade">
           <span class="faculdade-tipo">Bacharel</span>
           <h3 class="faculdade-curso">Publicidade e Propaganda</h3>
-          <span class="faculdade-instituicao">PUC Minas/ 2023</span>
+          <span class="faculdade-instituicao">PUC Minas/2023</span>
         </li>
 
         <li class="faculdade">
           <span class="faculdade-tipo">Cursando</span>
-          <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
-          <span class="faculdade-instituicao">PUC Minas/ 2024-2028</span>
+          <h3 class="faculdade-curso">Engenharia de Software</h3>
+          <span class="faculdade-instituicao">PUC Minas/2024-2028</span>
         </li>
       </ul>
 
@@ -105,29 +104,17 @@
       <li><a class="links-instagram" href="https://www.instagram.com/lucasnunesll/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
     </ul>
 
-    <a href=".logo" class="anchor"><img class="seta" src="./fotos/seta.svg" alt=""></a>
+    <a href=".logo" class="anchor"><img class="seta" src="./assets/fotos/seta.svg" alt=""></a>
 
     <div class="fim">
       <p>Estou disponível para novas oportunidades!</p>
-      <p>Site Desenvolvido por <a href="https://www.linkedin.com/in/lucas-nunes-leal-ledsham-0048b621a/" target="_blank" rel="noopener noreferrer" class="Lucas">Lucas Ledsham</a></p>
+      <p>Desenvolvido por <a href="https://www.linkedin.com/in/lucas-nunes-leal-ledsham-0048b621a/" target="_blank" rel="noopener noreferrer" class="Lucas">Lucas Ledsham</a></p>
     </div>
   </footer>
 
   <!--/ Footer -->
 
-  <script>
-    var page = $("html, body");
-    var animationDuration = 2000;
-
-    $(".anchor").click(function () {
-      page.animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-      }, animationDuration);
-      return false;
-    });
-  </script>
-
-  <script src="/script.js"></script>
+  <script src="./assets/script.js"></script>
 
 </body>
 
