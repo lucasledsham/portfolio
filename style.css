@@ -1,0 +1,295 @@
+body {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Playfair Display", serif;
+  margin: 0px;
+  background-color: #fff9f3;
+  margin-top: 40px;
+  scroll-behavior: smooth;
+  margin-bottom: 80px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+/* Menu */
+
+.header {
+  margin-right: 200px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
+}
+
+.projetos a,
+.formacao a,
+.contato a {
+  color: rgb(47, 57, 15, 0.45);
+}
+
+.projetos a:hover,
+.formacao a:hover,
+.contato a:hover {
+  color: #263008;
+}
+
+.inicio a {
+  color: #263008;
+}
+
+.detalhe {
+  width: 50px;
+  position: absolute;
+  right: 489px;
+  top: 65px;
+}
+
+/* Menu */
+
+/* Apresentacao */
+
+.apresentacao {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.desenho img {
+  margin-top: 100px;
+  width: 535px;
+  padding: 30px;
+  visibility: hidden;
+}
+
+.texto {
+  margin-top: 130px;
+}
+
+.conteudo {
+  display: grid;
+  visibility: hidden;
+}
+
+.apresentacao h1 {
+  font-size: 3rem;
+  color: #3b4518;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+}
+
+.apresentacao-texto {
+  margin-top: 40px;
+  font-family: Roboto;
+  font-size: 1.3rem;
+}
+
+.apresentacao-texto1 {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 1.3rem;
+}
+
+/* / Apresentação */
+
+/* Formação */
+
+.form {
+  background-color: #e8c8a4;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 0;
+  gap: 55px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.faculdade-lista {
+  grid-column: 2;
+}
+
+.formacao-extra {
+  grid-column: 2;
+}
+
+.subtitulo {
+  margin-top: 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 800;
+  color: #fff9f3;
+  font-size: 90px;
+  text-transform: uppercase;
+  visibility: hidden;
+}
+
+.formacao-texto {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 1.4rem;
+  color: #222b06;
+  line-height: 1.33;
+  text-align: left;
+}
+
+.faculdade-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.faculdade {
+  flex: 1;
+  border: 2px solid #3b4518;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.faculdade-curso {
+  flex: 1;
+  margin-bottom: 30px;
+  color: #222b06;
+  font-family: Roboto, sans-serif;
+}
+
+.faculdade-tipo,
+.faculdade-instituicao {
+  flex: 1;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgb(34, 43, 6, 0.9);
+  font-size: 1rem;
+}
+
+.idiomas {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.idiomas h3 {
+  font-size: 1.4rem;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  color: #222b06;
+}
+
+.linguas {
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+  color: #222b06;
+}
+
+.fluente {
+  color: rgb(34, 43, 6, 0.8);
+}
+
+/*/ Formação */
+
+/* Footer */
+
+.footer {
+  margin-top: 40px;
+  display: grid;
+  margin-left: 200px;
+  margin-right: 200px;
+  position: relative;
+}
+
+.conversar {
+  display: grid;
+  margin-bottom: 60px;
+  gap: 5px;
+}
+
+.conversar-titulo {
+  font-size: 2.5rem;
+  font-family: "Cormorant Garamond", serif;
+  color: #222b06;
+  font-weight: 400;
+}
+
+.conversar-texto {
+  font-size: 1.4rem;
+  font-family: Roboto;
+  color: rgb(34, 43, 6, 0.7);
+}
+
+.conversar-email {
+  color: #222b06;
+}
+
+.links {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 60px;
+}
+
+.links a {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  color: #222b06;
+}
+
+.fim {
+  display: grid;
+  gap: 60px;
+}
+
+.fim p {
+  font-size: 1.4rem;
+  font-family: Roboto;
+  color: rgb(34, 43, 6, 0.7);
+  font-weight: 100;
+}
+
+.Lucas {
+  color: #222b06;
+}
+
+.seta {
+  position: absolute;
+  right: -4px;
+  width: 40px;
+  bottom: 130px;
+}
