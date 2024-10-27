@@ -30,6 +30,10 @@ h3 {
   margin: 0px;
 }
 
+p {
+  line-height: 1.2;
+}
+
 /* Menu */
 
 .header {
@@ -54,7 +58,7 @@ h3 {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 500;
-  font-family: "Zilla Slab", serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 500;
 }
 
@@ -77,7 +81,7 @@ h3 {
 .detalhe {
   width: 50px;
   position: absolute;
-  right: 489px;
+  right: 513px;
   top: 65px;
 }
 
@@ -117,13 +121,13 @@ h3 {
 
 .apresentacao-texto {
   margin-top: 40px;
-  font-family: Roboto;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.3rem;
 }
 
 .apresentacao-texto1 {
   margin-top: 20px;
-  font-family: Roboto;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.4rem;
 }
 
@@ -137,17 +141,17 @@ h3 {
   margin-right: 200px;
   margin-top: 40px;
   grid-template-columns: 1fr;
-  gap: 90px;
+  gap: 60px;
 }
 
-.projetos-div{
+.projetos-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
 .projeto-mockup {
-  height: 700px;
+  height: 730px;
   border-radius: 20px;
   margin: 0 auto;
 }
@@ -170,7 +174,7 @@ h3 {
 }
 
 .projeto-info p {
-  font-family: Roboto;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.4rem;
   display: grid;
   gap: 15px;
@@ -182,7 +186,8 @@ h3 {
   gap: 40px;
 }
 
-.projeto-tecnologias img, .projeto-github a img {
+.projeto-tecnologias img,
+.projeto-github a img {
   width: 50px;
   perspective: 1000px;
 }
@@ -212,12 +217,11 @@ h3 {
 }
 
 .projeto-github h2 {
-  font-family: Roboto;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.4rem;
   color: #222b06;
   margin: 0;
 }
-
 
 /* Formação */
 
@@ -252,7 +256,7 @@ h3 {
 
 #formacao-texto {
   margin-top: 20px;
-  font-family: Roboto;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.4rem;
   color: #222b06;
   line-height: 1.33;
@@ -278,13 +282,13 @@ h3 {
   flex: 1;
   margin-bottom: 30px;
   color: #222b06;
-  font-family: Roboto, sans-serif;
+  font-family: "Quicksand", sans-serif, sans-serif;
 }
 
 .faculdade-tipo,
 .faculdade-instituicao {
   flex: 1;
-  font-family: Roboto, sans-serif;
+  font-family: "Quicksand", sans-serif, sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   color: rgb(34, 43, 6, 0.9);
@@ -299,13 +303,13 @@ h3 {
 
 #idiomas h3 {
   font-size: 1.4rem;
-  font-family: Roboto, sans-serif;
+  font-family: "Quicksand", sans-serif, sans-serif;
   text-transform: uppercase;
   color: #222b06;
 }
 
 #linguas {
-  font-family: Roboto, sans-serif;
+  font-family: "Quicksand", sans-serif, sans-serif;
   font-size: 1.2rem;
   color: #222b06;
 }
@@ -341,7 +345,7 @@ h3 {
 
 .conversar-texto {
   font-size: 1.4rem;
-  font-family: Roboto;
+  font-family: "Quicksand", sans-serif;
   color: rgb(34, 43, 6, 0.7);
 }
 
@@ -368,7 +372,7 @@ h3 {
 
 #fim p {
   font-size: 1.4rem;
-  font-family: Roboto;
+  font-family: "Quicksand", sans-serif;
   color: rgb(34, 43, 6, 0.7);
   font-weight: 100;
 }
