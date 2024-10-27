@@ -8,6 +8,16 @@ body {
   margin-bottom: 80px;
 }
 
+::selection {
+  background-color: #3b4518;
+  color: white;
+}
+
+::-moz-selection { /* Para Firefox */
+  background-color: #ffcc00;
+  color: #000;
+}
+
 img {
   display: block;
   max-width: 100%;
