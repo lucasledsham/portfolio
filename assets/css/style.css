@@ -136,28 +136,37 @@ h3 {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 40px;
+  grid-template-columns: 1fr;
+  gap: 90px;
 }
 
-.projetos-div {
-  display: flex;
+.projetos-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
 .projeto-mockup {
-  width: 600px;
+  height: 700px;
   border-radius: 20px;
+  margin: 0 auto;
 }
 
 .projeto-info {
   display: grid;
   align-content: center;
   justify-items: center;
+  margin-left: 50px;
 }
 
 .projeto-info img {
   width: 250px;
   margin: 10px;
   margin-bottom: 40px;
+}
+
+#pbpt-logo {
+  width: 300px;
 }
 
 .projeto-info p {
@@ -175,19 +184,40 @@ h3 {
 
 .projeto-tecnologias img, .projeto-github a img {
   width: 50px;
+  perspective: 1000px;
+}
+
+.imagem {
+  transition: transform 0.3s;
+}
+
+.projeto-tecnologias img:hover {
+  transform: rotateY(30deg);
 }
 
 .projeto-github {
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+
+.projeto-github a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.projeto-github img {
+  display: block;
 }
 
 .projeto-github h2 {
   font-family: Roboto;
   font-size: 1.4rem;
-  margin: 0;
   color: #222b06;
+  margin: 0;
 }
+
 
 /* Formação */
 
