@@ -14,6 +14,11 @@ body {
   color: white;
 }
 
+::-moz-selection {
+  background-color: #3b4518;
+  color: white;
+}
+
 img {
   display: block;
   max-width: 100%;
