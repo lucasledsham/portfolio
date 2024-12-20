@@ -179,6 +179,11 @@ p {
   margin-bottom: 40px;
 }
 
+#hr-logo{ 
+  height: 110px;
+  width: 300px;
+}
+
 #pbpt-logo {
   width: 300px;
 }
@@ -290,11 +295,14 @@ p {
   border-radius: 4px;
   text-align: center;
   flex-direction: column;
+  justify-items: center;
+  display: grid;
+  gap: 20px;
 }
 
 .faculdade-curso {
   flex: 1;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   color: #222b06;
   font-family: "Quicksand", sans-serif, sans-serif;
 }
@@ -307,6 +315,10 @@ p {
   text-transform: uppercase;
   color: rgb(34, 43, 6, 0.9);
   font-size: 1rem;
+}
+
+#engenharia {
+  max-width: 130px;
 }
 
 #idiomas {
