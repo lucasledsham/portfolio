@@ -141,6 +141,63 @@ p {
   font-size: 1.4rem;
 }
 
+/* TECNOLOGIAS */
+
+#tecnologias {
+  margin-top: 40px;
+}
+
+.rolagem {
+  max-width: 700px;
+}
+
+.rolagem__interna {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.rolagem__interna img {
+  border-radius: 20px;
+  height: 320px;
+  filter: grayscale(50%);
+  transition: filter 0.4s ease;
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); */
+}
+
+.rolagem__interna img:hover {
+  filter: grayscale(0%);
+}
+
+.rolagem[data-animado="true"] {
+  overflow: hidden;
+}
+
+.rolagem[data-animado="true"] .rolagem__interna {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: rolar var(--duracao-animacao, 60s) linear infinite;
+}
+
+@keyframes rolar {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+}
+
+.card img {
+  display: block;
+  height: 65px;
+  /* width: 100px; */
+}
+
+
 /* / Apresentação */
 
 /* PROJETOS */
